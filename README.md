@@ -28,6 +28,9 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 $ composer test
 ```
 
+## Probable stuff which could be added on a later stage
+- Define different places to look for paths via config or/and being lazy (looking in `app/`|`resources/`|`templates/`).
+
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
