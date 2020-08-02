@@ -10,6 +10,10 @@ class NullPath implements PathInterface
 {
     private $domain;
 
+    /**
+     * NullPath constructor.
+     * @param DomainInterface $domain
+     */
     public function __construct(DomainInterface $domain)
     {
         $this->domain = $domain;

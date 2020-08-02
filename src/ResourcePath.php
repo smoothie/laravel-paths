@@ -9,8 +9,15 @@ use Illuminate\Support\Str;
 
 class ResourcePath implements PathInterface
 {
+    /**
+     * @var DomainInterface
+     */
     private $domain;
 
+    /**
+     * ResourcePath constructor.
+     * @param DomainInterface $domain
+     */
     public function __construct(DomainInterface $domain)
     {
         $this->domain = $domain;

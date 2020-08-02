@@ -8,7 +8,6 @@ use Ieim\LaravelContracts\Contracts\Paths\PathInterface;
 
 class PathFactory implements PathFactoryInterface
 {
-
     /**
      * @inheritDoc
      */

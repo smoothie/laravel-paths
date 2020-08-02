@@ -7,8 +7,15 @@ use Illuminate\Support\Str;
 
 class Domain implements DomainInterface
 {
+    /**
+     * @var string
+     */
     private $name;
 
+    /**
+     * Domain constructor.
+     * @param string $name
+     */
     public function __construct(string $name)
     {
         $this->name = $name;

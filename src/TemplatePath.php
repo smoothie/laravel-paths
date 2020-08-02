@@ -9,8 +9,15 @@ use Illuminate\Support\Str;
 
 class TemplatePath implements PathInterface
 {
+    /**
+     * @var DomainInterface
+     */
     private $domain;
 
+    /**
+     * TemplatePath constructor.
+     * @param DomainInterface $domain
+     */
     public function __construct(DomainInterface $domain)
     {
         $this->domain = $domain;
